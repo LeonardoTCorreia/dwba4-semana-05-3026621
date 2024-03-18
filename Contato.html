@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="img/favicon.ico">
+  <title>Contato</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <iframe src="menu.html" width="100%" height="50px" frameborder="0"></iframe>
+  </header>
+
+  <img src="img/logo.jpg" width="300px" alt="Logotipo"> 
+  <h1><strong>Mande uma Mensagem</strong></h1> 
+
+  <form>
+    <ul>
+      <li><label for="name">Nome: </label>
+        <input type="text" name="name" id="name" required></li>
+      <li><label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required> </li>
+      <li><label for="phone">Telefone: </label>
+        <input type="tel" name="phone" id="phone" required> (99) 99999-9999</li> 
+      <li><label for="assunto">Assunto: </label>
+        <select name="assunto" required> 
+          <option value="selecione">-- Selecione --</option> <br> <br>
+          <option value="reclamar">Reclamação</option>
+          <option value="sugerir">Sugestão</option>
+        </select></li> <br> <br>
+      <li>Mensagem: 
+        <textarea name="message" id="message" cols="25" rows="2" required></textarea></li>
+      <li><fieldset>
+          <legend>Opções de Resposta: </legend>
+          <input name="e-mail" type="checkbox" value="email" required>E-mail
+          <input name="telefone" type="checkbox" value="telefone" required>Telefone
+      </fieldset></li>
+      <li><button type="submit">Enviar</button> </li> <br>
+    </ul>
+ </form>
+
+
+  <div class="imagem-container">
+    <a href="https://www.facebook.com/ifsppirituba">
+      <img src="img/facebook.png" width="30px" alt="Facebook">
+      <div class="overlay">IFSP Facebook</div>
+    </a>
+  </div> <br >
+
+  <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p> <br />
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
